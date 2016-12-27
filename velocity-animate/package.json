@@ -1,0 +1,77 @@
+{
+  "name": "velocity-animate",
+  "version": "1.4.0",
+  "description": "Accelerated JavaScript animation.",
+  "keywords": [
+    "velocity",
+    "animation",
+    "jquery",
+    "animate",
+    "ui",
+    "velocity.js",
+    "velocityjs",
+    "javascript"
+  ],
+  "homepage": "http://velocityjs.org",
+  "bugs": {
+    "url": "http://github.com/julianshapiro/velocity/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Julian Shapiro",
+      "url": "http://julian.com/"
+    },
+    {
+      "name": "Ryc O'Chet",
+      "url": "https://github.com/Rycochet"
+    }
+  ],
+  "main": "velocity.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianshapiro/velocity.git"
+  },
+  "files": [
+    "velocity.js",
+    "velocity.min.js",
+    "velocity.ui.js",
+    "velocity.ui.min.js"
+  ],
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-uglify": "~2.0.0"
+  },
+  "gitHead": "139de8b51e7a94cf69a1005354476a61112bd832",
+  "_id": "velocity-animate@1.4.0",
+  "scripts": {},
+  "_shasum": "b220a79cecfcdceeaf66c44e09ee9532bf5fcea5",
+  "_from": "velocity-animate@latest",
+  "_npmVersion": "3.5.2",
+  "_nodeVersion": "5.3.0",
+  "_npmUser": {
+    "name": "kvirani",
+    "email": "kvirani@gmail.com"
+  },
+  "dist": {
+    "shasum": "b220a79cecfcdceeaf66c44e09ee9532bf5fcea5",
+    "tarball": "https://registry.npmjs.org/velocity-animate/-/velocity-animate-1.4.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "julianshapiro",
+      "email": "info@julianshapiro.com"
+    },
+    {
+      "name": "kvirani",
+      "email": "kvirani@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/velocity-animate-1.4.0.tgz_1481569209274_0.6635840719100088"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/velocity-animate/-/velocity-animate-1.4.0.tgz"
+}

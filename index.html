@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>velocity</title>
+	 <style type="text/css">
+         .box{
+
+         	width: 200px;
+         	height: 100px;
+         	background-color: red;
+         	margin: 10%;
+         }
+	 </style>
+</head>
+<body>
+
+    
+
+    <button onclick="up();"> click up</button>
+    <button onclick="down();"> click down</button>
+	<div class="box">
+    	<h1>CEMOCODE</h1>
+    </div>
+	
+	<script type="text/javascript" src="velocity-animate/jquery.js"></script>
+	<script type="text/javascript" src="velocity-animate/velocity.js"></script>
+	<script type="text/javascript" src="velocity-animate/velocity.ui.js"></script>
+
+	<script>
+       function down() {
+
+       	   $(".box")
+       	    .velocity('transition.fadeIn')
+		    .velocity('transition.fadeOut')
+		    .velocity('transition.flipXIn')
+		    .velocity('transition.flipXOut');
+		    
+       }
+       function up() {
+
+       	   $(".box").velocity("slideDown", {duration: 350});
+       }
+	</script>
+</body>
+</html>
